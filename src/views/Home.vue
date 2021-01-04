@@ -1,24 +1,28 @@
 <template>
-  <div id="nav">
-    <router-link to="/"><img id = "logoinicio" alt="Futbol logo" src="../assets/nysl_logo.png"></router-link>
-    <router-link to="/Home">Home</router-link> |
-    <router-link to="/About">About</router-link> 
+  <div class="container">
+    <Navbar />
+    <div class="card" style="width: 18rem">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+        <p class="card-text">
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </p>
+        <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a>
+      </div>
+    </div>
   </div>
-  <div class="home">
-     <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Bienvenidos a nuestra app en Vue.js"/>
-  </div>
-  <router-view/>
+  <router-view />
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+import Navbar from "@/components/Navbar.vue";
 export default {
-  name: 'Home',
+  name: "Home",
   components: {
-    HelloWorld
-  }
-}
+    Navbar,
+  },
+};
 </script>
