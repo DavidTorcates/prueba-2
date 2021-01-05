@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-    <Navbar /> 
 <p>Las reglas de la FIFA regirán el juego de NYSL excepto según se modifique en el presente documento</p>
 <br>
 <H2>Deportividad</h2>
@@ -38,11 +37,9 @@
 </template>
 
 <script>
-import Navbar from "@/components/Navbar.vue";
 export default {
   name: "Home",
   components: {
-    Navbar,
   },
 };
 </script>
