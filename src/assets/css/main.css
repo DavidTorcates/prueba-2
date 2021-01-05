@@ -12,12 +12,10 @@
   padding: 30px;
   background: #033949;
 }
-
 #nav a {
   font-weight: bold;
   color: #D1D7C7;
 }
-
 #nav a.router-link-exact-active {
   color: #A3FF15;
 }

@@ -13,16 +13,15 @@ $text-color: white;
 #nav {
   padding: 30px;
   background:$color-segundario;
+  a {
+    font-weight: bold;
+    color: #D1D7C7;
+  }
+  a.router-link-exact-active {
+    color: #A3FF15;
+  }
 }
 
-#nav a {
-  font-weight: bold;
-  color: #D1D7C7;
-}
-
-#nav a.router-link-exact-active {
-  color: #A3FF15;
-}
 #carta {
   .card {
   color: black;

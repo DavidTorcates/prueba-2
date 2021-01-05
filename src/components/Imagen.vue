@@ -1,5 +1,5 @@
 <template>
-  <div id = "imagen">
+  <div id="imagen">
     <div class="card">
       <img
         id="img"
