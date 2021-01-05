@@ -1,7 +1,12 @@
-$color-primario: #A3FF15;
-$color-segundario: #033949; 
+$color-primario: #ADE542;
+$color-secundario: #264357; 
+$color-navbar: #1D3342;
 $text-color: white;
 /* base/base */
+body {
+  background-color: $color-secundario;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -12,6 +17,7 @@ $text-color: white;
 
 #nav {
   padding: 30px;
+<<<<<<< HEAD
   background:$color-segundario;
   a {
     font-weight: bold;
@@ -20,6 +26,9 @@ $text-color: white;
   a.router-link-exact-active {
     color: #A3FF15;
   }
+=======
+  background:$color-secundario;
+>>>>>>> 76dd86a318aef49d8555190b3a0fd91b37916add
 }
 
 #carta {
@@ -30,7 +39,7 @@ $text-color: white;
   margin-top: 25px;
   }
   .card-title{
-    background: $color-segundario;
+    background: $color-secundario;
     color: white;
     font-size: 1.5em;
     padding-top: 20px;
