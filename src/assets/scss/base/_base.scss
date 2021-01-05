@@ -1,7 +1,11 @@
 $color-primario: #A3FF15;
-$color-segundario: #033949; 
+$color-segundario: #264357; 
 $text-color: white;
 /* base/base */
+*{
+  background-color: $color-segundario;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
