@@ -1,9 +1,10 @@
-$color-primario: #A3FF15;
-$color-segundario: #264357; 
+$color-primario: #ADE542;
+$color-secundario: #264357; 
+$color-navbar: #1D3342;
 $text-color: white;
 /* base/base */
-*{
-  background-color: $color-segundario;
+body {
+  background-color: $color-secundario;
 }
 
 #app {
@@ -16,7 +17,7 @@ $text-color: white;
 
 #nav {
   padding: 30px;
-  background:$color-segundario;
+  background:$color-secundario;
 }
 
 #nav a {
@@ -35,7 +36,7 @@ $text-color: white;
   margin-top: 25px;
   }
   .card-title{
-    background: $color-segundario;
+    background: $color-secundario;
     color: white;
     font-size: 1.5em;
     padding-top: 20px;
