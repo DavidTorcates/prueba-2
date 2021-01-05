@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <Navbar />
+
     <div class="card" style="width: 18rem">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
@@ -18,11 +18,11 @@
 </template>
 
 <script>
-import Navbar from "@/components/Navbar.vue";
+
 export default {
   name: "Home",
   components: {
-    Navbar,
+
   },
 };
 </script>
