@@ -5,7 +5,7 @@
   </div>   
 </template>
 
-<style >
+<style lang = "scss">
 #logoinicio{
   width: 50px;
   height: 50px;

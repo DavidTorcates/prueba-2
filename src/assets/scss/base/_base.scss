@@ -17,18 +17,14 @@ body {
 
 #nav {
   padding: 30px;
-<<<<<<< HEAD
-  background:$color-segundario;
+  background:$color-secundario;
   a {
     font-weight: bold;
     color: #D1D7C7;
   }
   a.router-link-exact-active {
-    color: #A3FF15;
+    color:$color-primario;
   }
-=======
-  background:$color-secundario;
->>>>>>> 76dd86a318aef49d8555190b3a0fd91b37916add
 }
 
 #carta {
