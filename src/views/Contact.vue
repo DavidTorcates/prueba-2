@@ -2,7 +2,7 @@
   <div class="container">
     <Form/>
   </div>
-  <router-view />
+ 
 </template>
 
 <script>

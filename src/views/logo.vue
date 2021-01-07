@@ -5,13 +5,13 @@
   </div>   
 </template>
 
-<style >
+<style lang="scss">
 #logoinicio{
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  top: 20px;
-  left: 20px;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: -15px;
+  left: 0px;
   padding: 0px;
   border-radius: 100%;
   box-shadow:0px 0px 10px 10px #033949 ;
